@@ -1,0 +1,4 @@
+hubot-schneier
+==============
+
+Hubot-Schneier
