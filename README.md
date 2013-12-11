@@ -1,8 +1,8 @@
-# Hubot Example
+# Hubot-Schneier
 
-An example script package for Hubot
+Pulls a random fact from schneierfacts.com
 
-[![Build Status](https://travis-ci.org/hubot-scripts/hubot-example.png)](https://travis-ci.org/hubot-scripts/hubot-example)
+[![Build Status](https://travis-ci.org/hubot-schneier/hubot-schneier.png)](https://travis-ci.org/hubot-scripts/hubot-schneier)
 
 ## Directory Structure
 

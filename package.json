@@ -1,8 +1,8 @@
 {
-  "name": "hubot-example",
-  "description": "An example script pacakage for Hubot",
+  "name": "hubot-schneier",
+  "description": "Random quotes from schneierfacts.com",
   "version": "1.0.0",
-  "author": "Tom Bell <tomb@tomb.io>",
+  "author": "alchemydc <dc@electricalchemy.net>",
   "license": "MIT",
 
   "keywords": [
@@ -12,15 +12,16 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-example.git"
+    "url": "git://github.com/alchemydc/hubot-schneier.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-example/issues"
+    "url": "https://github.com/alchemydc/hubot-schneier/issues"
   },
 
   "dependencies": {
-    "coffee-script": "~1.6"
+    "coffee-script": "~1.6",
+    "xml2js": "0.1.14"
   },
 
   "devDependencies": {
