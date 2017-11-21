@@ -24,16 +24,16 @@ module.exports = (robot) ->
   askBruce = (msg, url) ->
     msg.http(url)
       .get() (err, res, body) ->
-      if err
-        msg.send "Bruce Schneier says: #{err}"
-      else
-        parser = new xml2js.Parser()
-        parser.parseString body, (err, result) ->
-          if err
-            msg.send "Got: #{err}"
-            output = ""
-          facts = []
-          for fact in result.channel.item
-            output =  "#{fact.description}"
-            facts.push(output)
-          msg.send msg.random facts
+        if err
+          msg.send "Bruce Schneier says: #{err}"
+        else
+          parser = new xml2js.Parser()
+          parser.parseString body, (err, result) ->
+            if err
+              msg.send "Got: #{err}"
+              output = ""
+            facts = []
+            for fact in result.channel.item
+              output =  "#{fact.description}"
+              facts.push(output)
+            msg.send msg.random facts
